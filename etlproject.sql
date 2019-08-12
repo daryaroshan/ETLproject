@@ -1,0 +1,15 @@
+create table counties (
+   State varchar(2) NOT NULL,
+  County varchar(100) NOT NULL,
+  Population varchar(15),
+  MedianHouseHoldIncome float,
+  UnemploymentRate float,
+  DiversityIndex float,
+  White float,
+  Black float,
+  Hispanic float,
+  Asian float,
+  AmericanIndian float,
+  NativeHawaiian float,
+  TwoOrMore float,
+   PRIMARY KEY (State, County));
